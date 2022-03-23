@@ -20,7 +20,6 @@
  *
  */
 
-
 // Aufgabe 1
 const num1 = Math.ceil(Math.random() * 100);
 const num2 = Math.ceil(Math.random() * 100);
@@ -39,7 +38,7 @@ const max = Math.max(num1, num2, num3);
 console.log(max);
 
 // Aufgabe 3
-Methode getRandomInt(min, max) {
+function getRandomInt(min, max) {
   min = Math.floor(min);
   max = Math.ceil(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
