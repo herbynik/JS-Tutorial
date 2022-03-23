@@ -8,7 +8,7 @@
   - Erstelle eine Variable namens "passwort" und gib ihr den Wert eines
     leeren Strings.
   - Nutze einen Loop, der solange läufte wie unsere Variable
-    "passwortLaenge" es vorgibt, und die passenden Math functions um aus den
+    "passwortLaenge" es vorgibt, und die passenden Math Methodes um aus den
     vorgegeben "letters", Zeichen zu der Variablen "passwort" anzufügen.
   - Gib das generierte Passwort in der Konsole aus.
 
