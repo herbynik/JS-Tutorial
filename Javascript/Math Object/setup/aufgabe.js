@@ -19,3 +19,29 @@
  * zwischen zwei Zahlen zurück gibt.
  *
  */
+
+//Aufgabe 1
+
+let num1 = Math.ceil(Math.random() * 10);
+let num2 = Math.ceil(Math.random() * 10);
+let num3 = Math.ceil(Math.random() * 10);
+
+console.log(num1, num2, num3);
+
+//Aufgabe 2
+
+let max = Math.max(num1, num2, num3);
+
+console.log(max);
+
+//Aufgabe 3
+
+function getRandomInt(min, max) {
+  min = Math.floor(min);
+  max = Math.ceil(max);
+  return Math.ceil(Math.random() * (max - min)) + min;
+}
+
+let random = getRandomInt(333, 10000);
+
+console.log("randonm:", random);

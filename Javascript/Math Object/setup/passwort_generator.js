@@ -13,3 +13,21 @@
   - Gib das generierte Passwort in der Konsole aus.
 
  */
+
+let letters = "0123456789ABCDEFGabcdef!§$%&/(";
+
+let passwortLaenge = 8;
+
+let passwort = "";
+
+function getRandomInt(min, max) {
+  min = Math.floor(min);
+  max = Math.ceil(max);
+  return Math.ceil(Math.random() * (max - min)) + min;
+}
+
+for (let i = 0; i < passwortLaenge; i++) {
+  passwort += letters[getRandomInt(0, 29)];
+}
+
+console.log(passwort);

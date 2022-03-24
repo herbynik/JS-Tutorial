@@ -21,7 +21,7 @@ const sonderzeichen = "!§$%&()=?€{}|]><,.:;-_";
 
 const letters = zahlen + grossBuchstaben + kleinBuchstaben + sonderzeichen;
 
-const passwortLaenge = 8;
+const passwortLaenge = 12;
 let passwort = "";
 
 for (var i = 0; i < passwortLaenge; i++) {
