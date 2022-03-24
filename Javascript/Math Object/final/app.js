@@ -8,23 +8,22 @@
  */
 
 const number = 4.815162342;
-
 // Gibt den AB-gerundeten Wert einer Zahl zurück
 // const result = Math.floor(number);
 
 // Gibt den AUF-gerundeten Wert einer Zahl zurück
 // const result = Math.ceil(number);
 
-// Gibt die KLEINSTE eingegebene Zahl zurück
-//const result = Math.min(4, 8, 15, 16, 23, 42);
+// Gibt die KLEINSTE aller eingegebenen Zahlen Zurück
+// const result = Math.min(4, 8, 15);
 
-// Gibt die GRÖSSTE eingegebene Zahl zurück
-// const result = Math.max(4, 8, 15, 16, 23, 42);
+// Gibt die GRÖSSTE aller eingegebenen Zahlen zurück
+// const result = Math.max(4, 8, 15);
 
-// Gibt eine Zufallszahl (Kommzahl) zwischen 0-1 zurück
+// Gibt einer Zufallszahl (Kommazahl) zwischen 0-1 zurück
 // const result = Math.random();
 
-// Gibt eine Zufallszahl (Kommzahl) zwischen 0-10 zurück
+// Gibt einer Zufallszahl (Kommazahl) zwischen 0-10 zurück
 // const result = Math.random() * 10;
 
 // ==> Ganze Zahl zwischen 0-9
